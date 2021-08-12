@@ -1,4 +1,4 @@
-package dbweb.web.controller;
+package dbweb.controller;
 
 import dbweb.model.User;
 import dbweb.service.UserService;
@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping()
     public String getAllUsers(Model model) {
-        model.addAttribute("users", userService.allUsers());
+        model.addAttribute("users", userService.getAllUsers());
         return "/all-users";
     }
 

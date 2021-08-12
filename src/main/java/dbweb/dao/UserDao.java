@@ -5,9 +5,10 @@ import dbweb.model.User;
 import java.util.List;
 
 public interface UserDao {
+
     void addUser(User user);
 
-    List<User> allUsers();
+    List<User> getAllUsers();
 
     User getUserById(int id);
 

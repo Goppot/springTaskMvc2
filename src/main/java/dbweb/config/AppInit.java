@@ -1,4 +1,4 @@
-package dbweb.web.config;
+package dbweb.config;
 
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;

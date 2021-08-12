@@ -1,4 +1,4 @@
-package dbweb.web.config;
+package dbweb.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
